@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.App-header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.App-header nav ul li {
+  display: inline;
+}
+
+.App-header nav ul li a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.App-section h2 {
+  color: #282c34;
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.App-footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
